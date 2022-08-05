@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor1: #FEDDD6;
+    --cor2: #DC5132;
+    --cor3: #585858;
+    --cor4: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* Section 1 - Container + Header */
+
+.section1 {
+    background-image: radial-gradient(white, #FEDDD6 50%);
+}
+#logo {
+    width: 150px;
+}
+#cart {
+    width: 25px;
+}
+
+/* Main com título e imagem principal */
+
+.titulo-exercicio {
+    font-weight: 700;
+}
+.slogan {
+    color: var(--cor3);
+}
+.botao {
+    border: none;
+    background-color: var(--cor2);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.botao:hover {
+    background-color: #585858;
+}
+.right-arrow {
+    width: 20px;
+}
+
+/* Section2 - 3 imagens */
+
+.categoria {
+    width: 300px;
+}
+
+/* Section3 - Featured Products */
+
+h3 {
+    color: var(--cor3);
+}
+.orange-trace {
+    width: 100px;
+    height: 5px;
+    background-color: #DC5132;
+    border-radius: 5px;
+}
+.foto-galeria {
+    width: 200px;
+}
+.foto-galeria p {
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+.caixa-imagem-galeria {
+    background-color: lightgray;
+}
+
+/* Section4 - Latest Products */
+
+.produto {
+    width: 300px;
+    margin-top: 20px;
+}
+.produto p {
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+/* Section5 - Smart Band 4 */
+
+.section-smart-band {
+    background-image: linear-gradient(#FEDDD6, white, #FEDDD6);
+}
+.imagem-smart-band {
+    width: 400px;
+}
+.right-smart-band {
+    width: 500px;
+}
+.right-smart-band p {
+    color: var(--cor3);
+    font-size: 0.8em;
+}
+.right-smart-band h2 {
+    font-size: 3.2em;
+    font-weight: 700;
+}
+
+/* Section6 - Testemunhos */
+
+.testemunho {
+    width: 300px;
+    box-shadow: 0px 0px 10px lightgray;
+}
+.testemunho i {
+    color: var(--cor2);
+}
+.descricao-testemunho {
+    font-size: 0.8em;
+    color: var(--cor3);
+    margin: 0;
+}
+.nome-testemunho {
+    font-weight: bold;
+    color: var(--cor3);
+    margin: 0;
+}
+.foto-testemunho {
+    width: 100px;
+}
+.foto-testemunho img {
+    border-radius: 50%;
+}
+
+/* Section6 - Testemunhos */
+
+.logo a {
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+.logo a:hover {
+    filter: grayscale(0);
+}
+
+/* Section6 - Testemunhos */
+
+.descricao-download {
+    color: rgb(164, 164, 164);
+    font-size: 0.8em;
+}
+.app {
+    width: 100px;
+}
+.imagem-redstore {
+    width: 150px;
+}
+.descricao-redstore {
+    color: rgb(164, 164, 164);
+    font-size: 0.8em;
+}
+.lista-links a, .lista-redes-sociais a {
+    color: rgb(164, 164, 164);
+    font-size: 0.8em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.lista-links a:hover, .lista-redes-sociais a:hover {
+    color: rgb(213, 213, 213);
+}
+
+/* Section7 - Copyright */
+
+.copyright {
+    color: rgb(164, 164, 164);
+    font-size: 0.8em;
+}
